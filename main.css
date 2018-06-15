@@ -1,0 +1,80 @@
+html {
+  background-color: #000000;
+  background-image: url("stars.jpg");
+}
+
+div {
+  /* border: 1px solid gold; */
+  /* width: 400px;
+  height: 400px; */
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-family: 'Song Myung', serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.titleBar {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: #DECA22;
+}
+
+.mainSection, .donutPic, .textBox, .ratPic{
+  width: 100%;
+  height: 350px;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 3px solid #DECA22;
+  border-radius: 4px;
+}
+
+.donutPic, .ratPic{
+  width: 250px;
+  /* border: 3px solid black; */
+}
+
+.textBox{
+  /* width: 500px; */
+  min-width: 200px;
+  width: 50%;
+  overflow-y: auto;
+}
+
+.buttonBar {
+  min-width: 500px;
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 0 15px;
+  border: 3px solid #DE2222;
+  background-color: #DECA22;
+  border-radius: 4px;
+}
+
+.button:active {
+  background-color: #DE2222;
+}
